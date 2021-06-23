@@ -1,0 +1,20 @@
+body {
+    background-color: #9ed5eb;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    font-family: "arial","sans-serif";
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    font-family: "arial","sans-serif";
+}
+.timer {
+    
+}
