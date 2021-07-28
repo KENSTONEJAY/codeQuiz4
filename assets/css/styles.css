@@ -1,20 +1,71 @@
-body {
-    background-color: #9ed5eb;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 120%;
-    font-family: "arial","sans-serif";
+
+  
+body{
+    background-color: rgb(103, 221, 236);
+}
+#title{
+    background-color: cadetblue;
+    color:rgb(248, 248, 247);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#container {
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 10%;
+    top: 10%;
+    width: 500px;
+    height: 500px;
+    border: 10px rgb(22, 127, 233);
+    background-color: cornsilk;
 }
 
-.button {
-    justify-content: center;
-    align-items: center;
-    font-size: 120%;
-    font-family: "arial","sans-serif";
+#questionsDiv {
+    margin: 10px;
+    font-size: large;
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.timer {
-    
+
+#currentClock {
+    margin: 10%;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: black;
+    float: right;
+}
+
+button {
+    border-radius: 8px;
+    font-size: medium;
+}
+
+#submitFinal {
+    background-color: rgb(3, 128, 145);
+    margin-left: 33%;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: medium;
+    background-color: lightslategrey;
+}
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+}
+
+li {
+    background-color: rgb(10, 75, 128);
+    margin-top: 5px;
+    padding: 5px 5px;
+    width: 40%;
+    font-size: 20px;
+    color: white;
 }

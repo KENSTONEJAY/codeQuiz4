@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Code Quiz 4</title>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Javascript Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\styles.css">
 </head>
-<body>
-    <div id = "container">
-     <h1>
-         JavaScript Coding Quiz
-     </h1>
-     <p>
-         Object: Answer coding questions before the time ends. Each wrong answer takes ten seconds from your alloted time.
-     </p>
-      <div class= button>
-        <a href="quiz.html"><button id= "start">Start Quiz</button></a>
-      </div>
-      
-      <!--link to highscores list page-->
-      <div class= button>
-        <a href="highscores.html"><button>View Highscores</button></a>
-      </div>
-  
 
 
+
+
+<body >
+    <div id="container">
+        <!-- Div for decremented clock -->
+        <div id="currentClock"></div>
+        <!-- quiz content div -->
+        <div id="questionsDiv">
+          <div id= "title">
+            <h1>Javascript Quiz Challenge</h1>
+          </div>
+            
+            <p>Answer the following Javascript related questions before time runs out. Any incorrect
+                answer will result in your score being deducted by ten seconds!</p>
+            <!-- Button to start the quiz -->
+            <button id="startTime">Start Quiz</button>
+                <!-- Link to highscores and names -->
+                <a href="leaderboard.html">View leaderboard</a>
+        </div>
     </div>
-        
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/logic.js"></script>
-  </body>
+
+
+    <script src="questions.js"></script>
+
+</body>
+
 </html>
